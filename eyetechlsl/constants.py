@@ -26,7 +26,7 @@ CHANNEL_METADATA = [
     {'label': 'RightEye_Glint0_Y',              'eye': 'right', 'type': 'ReflexY',     'unit': 'pixels'},
     {'label': 'RightEye_Glint1_X',              'eye': 'right', 'type': 'ReflexX',     'unit': 'pixels'},
     {'label': 'RightEye_Glint1_Y',              'eye': 'right', 'type': 'ReflexY',     'unit': 'pixels'},
-    {'label': 'RightEye_GazePoint_X',           'eye': 'right', 'type': 'ScreenY',     'unit': 'percent'},
+    {'label': 'RightEye_GazePoint_X',           'eye': 'right', 'type': 'ScreenX',     'unit': 'percent'},
     {'label': 'RightEye_GazePoint_Y',           'eye': 'right', 'type': 'ScreenY',     'unit': 'percent'},
 
     {'label': 'WeightedGazePoint_Valid',        'eye': 'both', 'type':  'Confidence',  'unit': 'normalized'},
