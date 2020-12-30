@@ -14,8 +14,8 @@ CHANNEL_METADATA = [
     {'label': 'LeftEye_Glint0_Y',               'eye': 'left', 'type':  'ReflexY',     'unit': 'pixels'},
     {'label': 'LeftEye_Glint1_X',               'eye': 'left', 'type':  'ReflexX',     'unit': 'pixels'},
     {'label': 'LeftEye_Glint1_Y',               'eye': 'left', 'type':  'ReflexY',     'unit': 'pixels'},
-    {'label': 'LeftEye_GazePoint_X',            'eye': 'left', 'type':  'DirectionX',  'unit': 'percent'},
-    {'label': 'LeftEye_GazePoint_Y',            'eye': 'left', 'type':  'DirectionY',  'unit': 'percent'},
+    {'label': 'LeftEye_GazePoint_X',            'eye': 'left', 'type':  'ScreenX',     'unit': 'percent'},
+    {'label': 'LeftEye_GazePoint_Y',            'eye': 'left', 'type':  'ScreenY',     'unit': 'percent'},
 
     {'label': 'RightEye_Found',                 'eye': 'right', 'type': 'Confidence',  'unit': 'normalized'},
     {'label': 'RightEye_Calibrated',            'eye': 'right', 'type': 'Confidence',  'unit': 'normalized'},
@@ -26,15 +26,15 @@ CHANNEL_METADATA = [
     {'label': 'RightEye_Glint0_Y',              'eye': 'right', 'type': 'ReflexY',     'unit': 'pixels'},
     {'label': 'RightEye_Glint1_X',              'eye': 'right', 'type': 'ReflexX',     'unit': 'pixels'},
     {'label': 'RightEye_Glint1_Y',              'eye': 'right', 'type': 'ReflexY',     'unit': 'pixels'},
-    {'label': 'RightEye_GazePoint_X',           'eye': 'right', 'type': 'DirectionX',  'unit': 'percent'},
-    {'label': 'RightEye_GazePoint_Y',           'eye': 'right', 'type': 'DirectionY',  'unit': 'percent'},
+    {'label': 'RightEye_GazePoint_X',           'eye': 'right', 'type': 'ScreenY',     'unit': 'percent'},
+    {'label': 'RightEye_GazePoint_Y',           'eye': 'right', 'type': 'ScreenY',     'unit': 'percent'},
 
     {'label': 'WeightedGazePoint_Valid',        'eye': 'both', 'type':  'Confidence',  'unit': 'normalized'},
-    {'label': 'WeightedGazePoint_X',            'eye': 'both', 'type':  'DirectionX',  'unit': 'percent'},
-    {'label': 'WeightedGazePoint_Y',            'eye': 'both', 'type':  'DirectionY',  'unit': 'percent'},
-    {'label': 'WeightedGazePoint_LeftWeight',   'eye': 'both', 'type':  'DirectionY',  'unit': 'normalized' },
-    {'label': 'WeightedGazePoint_RightWeight',  'eye': 'both', 'type':  'DirectionY',  'unit': 'normalized' },
-    {'label': 'Focus',                          'eye': 'both', 'type':  'Unspecified', 'unit': '?'},
+    {'label': 'WeightedGazePoint_X',            'eye': 'both', 'type':  'ScreenX',     'unit': 'percent'},
+    {'label': 'WeightedGazePoint_Y',            'eye': 'both', 'type':  'ScreenY',     'unit': 'percent'},
+    {'label': 'WeightedGazePoint_LeftWeight',   'eye': 'both', 'type':  'Other',       'unit': 'normalized' },
+    {'label': 'WeightedGazePoint_RightWeight',  'eye': 'both', 'type':  'Other',       'unit': 'normalized' },
+    {'label': 'Focus',                          'eye': 'both', 'type':  'Other',       'unit': 'unspecified'},
     {'label': 'Distance',                       'eye': 'both', 'type':  'Distance',    'unit': 'mm'},
 ]
 
