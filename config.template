@@ -1,0 +1,36 @@
+
+// Rename this file from 'config.template' -> 'config' to load by default
+// Format follows [$SETTING_NAME] = $VALUE
+// Type definitions referenced from https://archive.is/hfcCS 
+// For more info on device configuration, consult the Quicklink2 API Documentation and device manual
+// API docs are located in C:\Program Files\EyeTechDS\QuickLINK_2_$VERSION\doc\QuickLINK2.html
+// The SDK is available from:
+//      Latest: https://eyetechds.com/developer-corner/software-downloads/quicklink2-sdk-download/
+//      Archived (2020-12-18) https://archive.is/7E69x
+
+
+// [DeviceBandwidthMode]                 enumeration => int                                                                              
+// [DeviceBandwidthPercentFull]          percentage => int (0-100)                                                                       
+// [DeviceBandwidthPercentTracking]      percentage => int (0-100)                                                                       
+// [DeviceBinning]                       int (1-4)                                                                                       
+// [DeviceDistance]                      bool (true/false) or int (1/0)                                                                  
+// [DeviceDistance]                      centimeters => int (0 - 300)                                                                    
+// [DeviceExposure]                      milliseconds => int (0 - 30)                                                                    
+// [DeviceFlipX]                         bool (true/false) or int (1/0)                                                                  
+// [DeviceFlipY]                         bool (true/false) or int (1/0)                                                                  
+// [DeviceGainMode]                      enumeration => int                                                                              
+// [DeviceGainValue]                     int (0 - 100)                                                                                   
+// [DeviceGazePointFilterMode]           enumeration => int                                                                              
+// [DeviceGazePointFilterValue]          int (0 - 200)                                                                                   
+// [DeviceImageProcessingEnabled]        bool (true/false) or int (1/0)                                                                  
+// [DeviceImageProcessingEyesToUse]      enumeration => int                                                                              
+// [DeviceImageProcessingEyeRadiusLeft]  radius in centimeters => float                                                                  
+// [DeviceImageProcessingEyeRadiusRight] radius in centimeters => float                                                                  
+// [DeviceInterpolateEnabled]            bool (true/false) or int (1/0)                                                                  
+// [DeviceIRLightMode]                   enumeration => int                                                                              
+// [DeviceLensFocalLength]               centimeters => float (0.8, 1.2, 1.6, 2.5, 3.5, 5.0 are typical lens sizes - 0.8 cm = 8 mm lens) 
+// [DeviceRoiMoveThresholdPercentX]      percentage => int (0-100)                                                                       
+// [DeviceRoiMoveThresholdPercentY]      percentage => int (0-100)                                                                       
+// [DeviceRoiSizePercentY]               percentage => int (0-100)                                                                       
+// [DeviceRoiSizePercentX]               percentage => int (0-100)                                                                       
+// [DeviceDownsampleScaleFactor]         ratio => float (0, 1.0 - 20.0)                                                                  
