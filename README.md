@@ -54,3 +54,12 @@ EyeTechDS devices prioritize streaming processed data before raw video data. As 
 ## What is LSL?
 
 Lab Streaming Layer or LSL is a system designed to unify the collection of time series data for research experiments. It has become standard in the field of EEG-based brain-computer interfaces for its ability to make seperate streams of data available on a network with time synchronization and near real-time access. For more information, check out this [lecture from Modern Brain-Computer Interface Design](https://www.youtube.com/watch?v=Y1at7yrcFW0) or the [LSL repository](https://github.com/sccn/labstreaminglayer)
+
+## Acknowledgments
+This open-source LSL application was developed and is maintained by Intheon (www.intheon.io).
+
+For support inquiries please file a GitHub issue on this repo (preferred) or contact support@intheon.io.
+
+Copyright (C) 2020-2021 Syntrogi Inc. dba Intheon.
+
+This work was funded by the Army Research Laboratory under Cooperative Agreement Number W911NF-10-2-0022.
